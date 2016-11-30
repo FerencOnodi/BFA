@@ -1,18 +1,22 @@
 from get_input import input
 
 
-def get_input():
-    user_input = input("Give me a valid number: ")
-    return user_input
+def fizzbuzz(number):
+    pass
 
 
-def fizzbuzz(input):
-    print(input)
+def print_fizz():
+    print("Fizz")
 
-# number = get_input()
+
+def print_buzz():
+    print("Buzz")
+
+
+def print_fizzbuzz():
+    print("FizzBuzz")
 
 
 def main():
-    get_input()
-    fizzbuzz(number)
+    fizzbuzz(input())
 main()
