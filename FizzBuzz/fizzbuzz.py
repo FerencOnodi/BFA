@@ -25,5 +25,6 @@ def print_fizzbuzz():
 
 
 def main():
-    fizzbuzz(my_input())
+    while True:
+        fizzbuzz(my_input())
 main()
