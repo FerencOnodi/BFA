@@ -23,22 +23,26 @@ def get_input2():
 
 def add(number1, number2):
     result = number1 + number2
-    print(result)
+    print("\nThe result is: %d" % result)
 
 
 def substract(number1, number2):
     result = number1 - number2
-    print(result)
+    print("\nThe result is: %d" % result)
 
 
 def multiply(number1, number2):
     result = number1 * number2
-    print(result)
+    print("\nThe result is: %d" % result)
 
 
 def divide(number1, number2):
     result = number1 / number2
-    print(result)
+    print("\nThe result is: %d" % result)
+
+
+def error_message():
+    print("Please enter a number!")
 
 
 def print_menu():
