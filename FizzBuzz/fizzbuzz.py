@@ -1,8 +1,15 @@
-from get_input import input
+from get_input import my_input
 
 
 def fizzbuzz(number):
-    pass
+    if number % 3 == 0 and number % 5 == 0:
+        print_fizzbuzz()
+    elif number % 3 == 0:
+        print_fizz()
+    elif number % 5 == 0:
+        print_buzz()
+    else:
+        print("Your number is not divisable with 3 nor 5. Try again with an other number!")
 
 
 def print_fizz():
@@ -18,5 +25,5 @@ def print_fizzbuzz():
 
 
 def main():
-    fizzbuzz(input())
+    fizzbuzz(my_input())
 main()
